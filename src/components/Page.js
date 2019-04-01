@@ -1,4 +1,4 @@
-import React, { PropTypes, Component } from 'react';
+import React, { Component } from 'react'; //  PropTypes,
 
 export default  class Page extends Component {
     render() {
@@ -7,8 +7,4 @@ export default  class Page extends Component {
             <p>У тебя { photos.length } фото за { year } год</p>
         </div>
     }
-}
-
-Page.propTypes = {
-    year: PropTypes.number.isRequired,
 }
